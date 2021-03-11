@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/557b5e0bddf29d861400005d/train/javascript
+function converter (mpg) {
+  let mile = mpg * 1.609344;
+  let gallon = mile / 4.54609188;
+  let result = Number.parseFloat(gallon).toFixed(2);
+  return Number(result);
+}
