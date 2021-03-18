@@ -1,7 +1,4 @@
 https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
 function past(h, m, s){
-const hours = h * 3600000;
-const minutes = m * 60000;
-const second = s * 1000;
-  return hours + minutes + second;
+return ((h * 3600) + (m * 60) + s) * 1000;
 }
