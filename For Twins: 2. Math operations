@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59c287b16bddd291c700009a/train/javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  let diametr = 2 * radius;
+  let midl = bottleLength - rimLength;
+  let v = diametr * radius;
+  return v * midl;
+};
