@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/588417e576933b0ec9000045/train/javascript
+function seatsInTheater(nCols, nRows, col, row) {
+ let all = nCols * nRows;
+ let leftside = nCols - col;
+   let frontside = nRows - row;
+     let result = (leftside + 1) * frontside;
+  return result; 
+}
